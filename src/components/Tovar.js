@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { Context } from "..";
+import '../pages/style/tovar_price.css'
 
 const Tovar = () => {
     const { device } = useContext(Context)
