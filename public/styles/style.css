@@ -796,6 +796,7 @@ footer {
 	font-size: 18px;
 	padding: 40px 180px;
 	text-align: left;
+	padding-bottom: 20px;
 }
 
 footer h2 {
@@ -852,6 +853,15 @@ footer h2 {
 
 .map_items>h2 {
 	margin-bottom: 10px;
+}
+
+.protection{
+	text-align: center;
+	border-top: 3px solid #F2B33A;
+	padding-top: 20px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 50px;
 }
 
 /* vvv Scroll Up vvv */
