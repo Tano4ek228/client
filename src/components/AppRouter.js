@@ -11,7 +11,7 @@ const AppRouter = observer (() => {
 	return (
 		<Routes>
 			
-			{localStorage.getItem('data')==="ADMIN" || authRouters.map(({ path, Component }) =>
+			{localStorage.getItem('data')==="ADMIN" && authRouters.map(({ path, Component }) =>
 				<Route key={path} path={path} element={<Component />}/>
 			)}
 			{publicRoutes.map(({ path, Component }) =>
